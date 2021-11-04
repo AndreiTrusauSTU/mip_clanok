@@ -1,3 +1,5 @@
+%узнать о изменении головы в документах / вставить ссылки на изображение / доделать / ...
+
 \documentclass[12pt, letterpaper]{article}
 \usepackage[utf8]{inputenc}
 
@@ -32,7 +34,7 @@
 \begin{figure}[H]
 	\centering
 	\includegraphics[height=1in]{Spring_logo.png}
-	\caption[Optional caption]{spring} %add liink here
+	\caption[Optional caption]{spring} %add link
 \end{figure}
 
 %This is table of content
@@ -84,7 +86,7 @@ Nie je možné napísať plnohodnotný projekt iba pomocou HTML, CSS a JavaScrip
 \begin{figure}[H]
 	\centering
 	\includegraphics[height=2in]{Spring_info.png}
-	\caption[Optional caption]{spring} %add liink here
+	\caption[Optional caption]{spring\cite{Image_Info}}
 \end{figure}
 
 	%3.1 Abstract
@@ -111,31 +113,9 @@ to be continued\\
 .\\
 .\\
 
-\bibliography{zdroje}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\cleardoublepage
+\bibliographystyle{IEEEtran}
+\bibliography{zdroje.bib}
 
 
 
